@@ -1,7 +1,6 @@
 name: 实时油价查询
 desc: >-
   通过网络API查询当前油价，默认查询地区为江苏省
-  拷贝此覆写，设置tile的argument为查询地区
 
 tiles:
   - name: gas-price
@@ -10,7 +9,7 @@ tiles:
     content: '刷新中...'
     icon: 'fuelpump.fill'
     backgroundColor: '#FB8C00'
-    argument: 'suzhou'
+    argument: 'jiangsu'
 
 script-providers:
   gas-price:
